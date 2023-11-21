@@ -43,7 +43,6 @@ with st.spinner('モデルを読み込んでいます...'):
 
 st.markdown('''
 #### StyleGAN画像生成サイトの例
-- [Generated Photos](https://generated.photos/faces)
 - [This Person Does Not Exist](https://thispersondoesnotexist.com/)
 ''')
 img_file_buffer = st.file_uploader(label='画像をアップロードしてください（アップロードされた画像はサーバー上には保存されません）', type=['jpg','png','jpeg','webp'])
